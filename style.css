@@ -1,0 +1,85 @@
+
+html, body {
+	margin: 0;
+}
+
+body {
+	background: #fff;
+	text-align: center; /* Necessary for IE 6,7,8 */
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 16px;
+}
+
+a:link,
+a:hover,
+a:active,
+a:visited {
+	color: black;
+	text-decoration: none;
+}
+
+#container {
+	width: 900px;
+	margin: 0 auto;
+}
+
+#drawing,
+#entries,
+#poem {
+	width: 300px;
+	height: 383px;
+	float: left;
+}
+
+#entries {
+	border-spacing: 0;
+	border-collapse: collapse;
+	text-align: center;
+	vertical-align: center;
+}
+
+#entries .name {
+	height: 24%;
+}
+
+#entries .section {
+	height: 35%;
+}
+
+#entries .link {
+	height: 6%;
+}
+
+#entries .link {
+	font-size: 12px;
+	color: gray;
+}
+
+#entries .name h1 {
+	margin: 0;
+	font-family: 'Miss Fajardose', cursive;
+	font-weight: 600;
+	font-size: 45px;
+}
+
+#entries .section p {
+	font-style: italic;
+	line-height: 300%;
+}
+
+#entries #name {
+	background-color: #B1D3EC;
+}
+
+#entries #family {
+	background-color: #CCFFBF;
+}
+
+#entries #preschool {
+	background-color: #FFF9BF;
+}
+
+
+
+
+
